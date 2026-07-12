@@ -469,11 +469,30 @@ footer {
     display: flex;
     justify-content: right;
     flex-direction: column;
+}
 
-
-
+.social-icon {
+    display: flex;
+    justify-content:space-between;
+    flex-direction:column;
+    text-decoration: none;
+    color: white;
 
 }
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.icon a{
+    color: white;
+    font-size: 15px;
+
+}
+
 
 .copyright {
     text-align: left;
