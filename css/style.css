@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {}
+
+.button {
+    background-color: blueviolet;
+    color: white;
+    padding: 20px;
+    border: 2px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 50px;
+
+}
+
+img {}
+
+a {
+    margin: 10px;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 10px;
+
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 15px;
+
+
+}
+
+.hero {
+
+    /* background-image: url("../images/banner.jpg"); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+        url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    color: white;
+    text-align: center;
+    /* margin: 50px; */
+    padding: 200px;
+    margin-top: 25px;
+
+
+}
+
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 25px;
+    padding: 50px;
+    margin-bottom: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+.LOGO {
+    display: flex;
+    align-items: center;
+    gap: 10PX;
+
+}
+
+.team-card {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+
+}
+
+.card {
+    border: 1px solid #ddbbdd;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    /* width: 650px; */
+
+
+}
+
+.card img {
+    width: 100%;
+    height: 260px;
+    display: block;
+    object-fit: cover;
+    object-position: center 25%;
+}
+
+.speaker-content {
+    padding: 20px;
+
+}
+
+.speaker-content span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #2563eb;
+}
+
+.speaker-content h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+
+}
+
+.speaker-content p {
+    margin: 0;
+    color: #777777;
+    font-size: 14px;
+
+}
+
+#speaker {
+
+    text-align: center;
+    font-size: 32px;
+    margin: 40px 0 30px;
+
+}
+
+.pricing-section {
+    padding: 80px 20px;
+    background: #ffffff;
+
+}
+
+.pricing-heading {
+    text-align: center;
+
+}
+
+.pricing-heading h2 {
+    margin: 0 0 10px;
+    font-size: 42px;
+    color: #0f1c2e;
+}
+
+.pricing-heading p {
+    margin: 0;
+    color: #777777;
+    font-size: 15px;
+    margin-bottom: 60px;
+
+
+}
+
+.pricing-grid {
+    width: min(1100px, 90%);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    align-items: stretch;
+}
+
+.pricing-card {
+    padding: 30px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+
+}
+
+.plan-name {
+    font-size: 12px;
+    font-weight: 700;
+    color: #777777;
+
+}
+
+.pricing-card h3 {
+    margin: 8px 0 0;
+    font-size: 40px;
+    color: #0f1c2e;
+
+}
+
+.price-note {
+    margin: 0;
+    color: #888888;
+    font-size: 13px;
+
+
+}
+
+.pricing-card hr {
+    width: 100%;
+    margin: 22px 0;
+    border: none;
+    border-top: 1px solid #e5e5e5;
+
+}
+
+.pricing-card ul {
+    margin: 0 0 25px;
+    padding-left: 18px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+
+
+
+}
+
+.pricing-card li {
+    margin-bottom: 13px;
+    color: #555555;
+    font-size: 14px;
+
+
+}
+
+
+.pricing-card li::marker {
+    color: #2563eb;
+
+}
+
+.pricing-btn {
+    display: block;
+    padding: 13px;
+    border: 1px solid #2563eb;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    color: #2563eb;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.featured {
+    background: #0d1b2a;
+    border-color: #0d1b2a;
+    color: #ffffff;
+
+
+
+}
+
+.featured .plan-name {
+    color: #8db9ff;
+}
+
+.featured h3 {
+    color: #ffffff;
+
+}
+
+.featured .price-note,
+.featured li {
+    color: #bcc6d3;
+
+}
+
+.featured hr {
+    border-color: #243448;
+
+}
+
+.contact-btn {
+    border-color: #263444;
+    color: #263444;
+
+}
+
