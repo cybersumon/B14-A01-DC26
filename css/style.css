@@ -74,6 +74,7 @@ nav {
 .hero h1 {
     font-size: 60px;
     font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .hero p {
@@ -153,6 +154,7 @@ nav {
     text-align: center;
     font-size: 32px;
     margin: 40px 0 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
@@ -421,10 +423,12 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 300px;
 
 }
 .social-links a{
     color: white;
+    text-decoration: none;
    
 
 }
@@ -432,5 +436,15 @@ footer{
 .social-links{
     display: flex;
     justify-content:right;
+    flex-direction: column;
     
+}
+.copyright{
+    text-align:left;
+    margin-left: 340px;
+    height: 40px;
+    /* align-items: center; */
+    margin-top: 20px;
+
+
 }
