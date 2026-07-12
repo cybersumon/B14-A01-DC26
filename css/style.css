@@ -54,9 +54,8 @@ nav {
 }
 
 .hero {
-
-    /* background-image: url("../images/banner.jpg"); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    /* Learned: How to add an overlay/Gradient to background image */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),  
         url("../images/banner.jpg");
     background-size: cover;
     background-position: center;
@@ -106,7 +105,7 @@ nav {
 .card {
     border: 1px solid #ddbbdd;
     border-radius: 10px;
-    overflow: hidden;
+    overflow: hidden;  /* hide contant that goes outside the card*/
     background: white;
     display: flex;
     flex-direction: column;
@@ -411,3 +410,27 @@ nav {
 }
 /* <!-- ai section end  --> */
 
+
+footer{
+    background-color: #0d1b2a;
+    color: white;
+
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.social-links a{
+    color: white;
+   
+
+}
+
+.social-links{
+    display: flex;
+    justify-content:right;
+    
+}
