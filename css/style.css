@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
-
 }
-
 
 .button {
     background-color: #1d4ed8;
@@ -30,8 +28,6 @@ ul {
     list-style: none;
     margin: 10px;
     text-decoration: none;
-
-
 }
 
 ul li a {
@@ -44,16 +40,11 @@ ul li a:hover {
     /* margin: 20px; */
     border-radius: 5px;
     font-weight: bold;
-
-
-
 }
 
 .container {
     max-width: 1200px;
     margin: auto;
-
-
 }
 
 nav {
@@ -63,13 +54,7 @@ nav {
     align-items: center;
     margin-left: 60px;
     margin-right: 60px;
-    margin-top: 15px;
-
-
-
-
-
-
+    margin-top: 25px;
 }
 
 .header {
@@ -77,7 +62,6 @@ nav {
     top: 0;
     z-index: 1000;
     background-color: rgb(255, 255, 255);
-
 }
 
 .hero {
@@ -93,10 +77,7 @@ nav {
     /* margin: 50px; */
     padding: 200px;
     margin-top: 25px;
-
-
 }
-
 
 .hero h1 {
     font-size: 60px;
@@ -110,14 +91,12 @@ nav {
     margin-bottom: 100px;
     margin-left: 60px;
     margin-right: 60px;
-
 }
 
 .LOGO {
     display: flex;
     align-items: center;
     gap: 10PX;
-
 }
 
 .team-card {
@@ -127,7 +106,6 @@ nav {
     width: 90%;
     max-width: 1100px;
     margin: 40px auto;
-
 }
 
 .card {
@@ -139,8 +117,6 @@ nav {
     display: flex;
     flex-direction: column;
     /* width: 650px; */
-
-
 }
 
 .card img {
@@ -153,7 +129,6 @@ nav {
 
 .speaker-content {
     padding: 20px;
-
 }
 
 .speaker-content span {
@@ -167,14 +142,12 @@ nav {
 .speaker-content h3 {
     margin: 0 0 10px;
     font-size: 20px;
-
 }
 
 .speaker-content p {
     margin: 0;
     color: #777777;
     font-size: 14px;
-
 }
 
 #speaker {
@@ -183,18 +156,15 @@ nav {
     font-size: 32px;
     margin: 40px 0 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
 .pricing-section {
     padding: 80px 20px;
     background: #ffffff;
-
 }
 
 .pricing-heading {
     text-align: center;
-
 }
 
 .pricing-heading h2 {
@@ -208,8 +178,6 @@ nav {
     color: #777777;
     font-size: 15px;
     margin-bottom: 60px;
-
-
 }
 
 .pricing-grid {
@@ -229,30 +197,24 @@ nav {
     display: flex;
     flex-direction: column;
     text-align: left;
-
-
 }
 
 .plan-name {
     font-size: 12px;
     font-weight: 700;
     color: #777777;
-
 }
 
 .pricing-card h3 {
     margin: 8px 0 0;
     font-size: 40px;
     color: #0f1c2e;
-
 }
 
 .price-note {
     margin: 0;
     color: #888888;
     font-size: 13px;
-
-
 }
 
 .pricing-card hr {
@@ -260,7 +222,6 @@ nav {
     margin: 22px 0;
     border: none;
     border-top: 1px solid #e5e5e5;
-
 }
 
 .pricing-card ul {
@@ -270,23 +231,16 @@ nav {
     display: flex;
     flex-direction: column;
     list-style-type: disc;
-
-
-
 }
 
 .pricing-card li {
     margin-bottom: 13px;
     color: #555555;
     font-size: 14px;
-
-
 }
-
 
 .pricing-card li::marker {
     color: #2563eb;
-
 }
 
 .pricing-btn {
@@ -299,16 +253,12 @@ nav {
     color: #2563eb;
     font-weight: 600;
     font-size: 14px;
-
 }
 
 .featured {
     background: #0d1b2a;
     border-color: #0d1b2a;
     color: #ffffff;
-
-
-
 }
 
 .featured .plan-name {
@@ -323,23 +273,18 @@ nav {
 .featured .price-note,
 .featured li {
     color: #bcc6d3;
-
 }
 
 .featured hr {
     border-color: #243448;
-
 }
 
 .contact-btn {
     border-color: #263444;
     color: #263444;
-
 }
 
- /* AI / Copy Past Section Start  */
-
-
+/* AI / Copy Past Section Start  */
 
 .benefits-section {
     width: min(1100px, 90%);
@@ -439,13 +384,10 @@ nav {
     }
 }
 
- /* AI / Copy Past Section End  */
-
-
+/* AI / Copy Past Section End  */
 footer {
     background-color: #0d1b2a;
     color: white;
-
 }
 
 .footer-top {
@@ -453,7 +395,6 @@ footer {
     justify-content: space-between;
     align-items: center;
     height: 300px;
-
 }
 
 .social-links a {
@@ -461,8 +402,6 @@ footer {
     text-decoration: none;
     list-style: none;
     margin: 0px;
-
-
 }
 
 .social-links {
@@ -473,26 +412,21 @@ footer {
 
 .social-icon {
     display: flex;
-    justify-content:space-between;
-    flex-direction:column;
+    justify-content: space-between;
+    flex-direction: column;
     text-decoration: none;
     color: white;
-
 }
 
-.icon{
+.icon {
     display: flex;
     flex-direction: row;
-    
-
 }
 
-.icon a{
+.icon a {
     color: white;
     font-size: 15px;
-
 }
-
 
 .copyright {
     text-align: left;
@@ -500,6 +434,4 @@ footer {
     height: 40px;
     /* align-items: center; */
     margin-top: 20px;
-
-
 }
